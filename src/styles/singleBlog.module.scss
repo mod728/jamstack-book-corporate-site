@@ -1,0 +1,15 @@
+@import './variables.scss';
+
+.hero {
+    text-align: center;
+}
+
+.wrapper {
+    padding: 5rem 0 10rem;
+    .container {    
+        @extend %container;
+    }
+    @media(max-width: $break-s) { 
+        padding: 2rem 0 10rem;
+    }
+}
